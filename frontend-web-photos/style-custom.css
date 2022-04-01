@@ -4,12 +4,15 @@ ul {
 }
 
 .app {
-    font-family: "Comic Sans MS" !important;
+    font-family: "Times New Roman" !important;
     color: snow !important;
 }
 
 body{
-    background: linear-gradient(to right, #005AA7, #FFFDE4) no-repeat center center;
+    background-image: url('bg7.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 .heading{
@@ -17,7 +20,7 @@ body{
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
-    color: #00396b;
+    color: white;
 }
 
 p {
@@ -52,6 +55,10 @@ button:focus {
 .page-description {
     font-size: 1.1rem;
     margin: 0 auto;
+}
+
+.text-color {
+    color: white;
 }
 
 .tz-link {
